@@ -1,0 +1,267 @@
+body{
+  background-image: url(https://img.freepik.com/free-vector/paper-style-white-monochrome-background_23-2149023490.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1719100800&semt=ais_user   );
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+p{
+    text-align: center;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 0px solid rgb(193, 192, 187);	    
+    border-radius: 10px;	
+}
+
+/* ini untuk main image */
+
+.main-image{
+  width: 30%;
+}
+
+/* ini buat image produk */
+
+.product-image{
+  max-width: 450px;
+  max-height: 240px;
+}
+
+.table-product{
+  max-width: 300px;
+  max-height: 240px;
+}
+
+.main-header {
+    background-image: linear-gradient(rgb(249, 248, 248), rgb(176, 176, 176));
+    position: fixed;
+    top: 0;
+    right: 0; 
+    left: 0;
+    height: 48px;  
+ }
+ .header-info {
+    text-align: left;
+    color: rgb(219, 84, 75);
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 14-x 14px 0 14px;
+ }
+ .header-info a {
+    padding: 0;
+    text-decoration: none;
+ }
+ .header-info a:hover {
+    background-color:beige
+ }
+ nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(219, 84, 75);
+    padding: 15px;
+    float: left;
+  }
+  
+  a:hover {
+    background-color: burlywood;
+  }
+  .title {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+h1, h2, h3, p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.items {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: rgb(178, 178, 178);
+    
+}
+
+ .jumbotron {
+    margin-top: 5%;
+  }
+
+h3, p {
+    text-align: center;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+ }
+
+ table,th,tr,td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 1500px;
+  font-size: 20px;
+
+ }
+ .margin{
+  margin-top: 100px;
+ }
+
+ .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab {
+  background-color: gainsboro;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+h1.name {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: black;
+}
+h2.price {
+  font-size: 25px;
+  color: black;
+}
+
+.list {
+  list-style-type: disc;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.list li {
+  margin-top: 20px;
+  color: black;
+}
+
+hr {
+  height: 7px;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(219, 84, 75);
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: rgba(219, 85, 75, 0.616);
+  border-radius: 8px;
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 20pt;
+  text-align: center;
+  width: 100%;
+}
+button:hover {
+  transform: scale(1.2, 1.2);
+  background-color: rgb(219, 85, 75);
+  cursor: pointer;
+}
+
+div.about {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  background-color: rgb(255, 159, 148);
+  width: 80%;
+}
+
+.about {
+  text-align: left;
+  color: black;
+  padding: 10px;
+  width: 100%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+  margin-right: 100px;
+}
+
+div.image-about {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+img.about-us {
+  width: 150px;
+}
+
+footer {
+
+background-image: linear-gradient(rgb(210, 208, 208), rgb(186, 183, 183));
+}
+
+.main-footer { 
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.left-footer {
+  margin-right: auto; 
+  margin-left: 40px;
+}
+
+.right-footer {
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.center-footer {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.info-left {
+  color: rgb(255, 17, 0);
+  text-align: left;
+  width: 100%;
+}
+.info-right {
+  color: rgb(255, 17, 0);
+  text-align: right;
+  width: 100%;
+}
+
+.info-center {
+  color: rgb(255, 17, 0);
+  text-align: center;
+  width: 100%;
+  padding-top: 5px;
+  border-top: 1px solid rgb(146, 168, 133);
+
+}
+
+@media (max-width: 600px) {
+  * {
+      font-size: 2vw;
+      margin: 2px;
+    }
+}
+
+  
